@@ -1,0 +1,1386 @@
+{
+  "method": "Sí votaron / (Sí votaron + No votaron) × 100",
+  "nonSpecifiedMethod": "No especificados / Lista nominal × 100",
+  "originalsAvailable": true,
+  "sourceFiles": [
+    {
+      "file": "Mapa 03.1.csv",
+      "groupId": "18-19",
+      "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+      "encoding": "UTF-16LE BOM",
+      "delimiter": "tab",
+      "ageFilterEmbedded": false,
+      "matchedRows": 32,
+      "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad."
+    },
+    {
+      "file": "Mapa 03.1 (1).csv",
+      "groupId": "20-24",
+      "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+      "encoding": "UTF-16LE BOM",
+      "delimiter": "tab",
+      "ageFilterEmbedded": false,
+      "matchedRows": 32,
+      "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad."
+    },
+    {
+      "file": "Mapa 03.1 (2).csv",
+      "groupId": "25-29",
+      "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+      "encoding": "UTF-16LE BOM",
+      "delimiter": "tab",
+      "ageFilterEmbedded": false,
+      "matchedRows": 32,
+      "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad."
+    }
+  ],
+  "ageFilterEmbedded": false,
+  "exactNoVotaronAvailable": false,
+  "entities": [
+    {
+      "entityId": "01",
+      "entityName": "Aguascalientes",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 2,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 54.208192476548334,
+            "maxPct": 54.26393354850366
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 2,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 47.912183550848,
+            "maxPct": 47.96150128996365
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 2,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 47.396006283089754,
+            "maxPct": 47.44479270232094
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "02",
+      "entityName": "Baja California",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 3,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 46.08413112985507,
+            "maxPct": 46.1336041638109
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 3,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 38.11705913689173,
+            "maxPct": 38.15797922184814
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 3,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 36.568102080163584,
+            "maxPct": 36.60744377148168
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "03",
+      "entityName": "Baja California Sur",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 4,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 45.174029100371534,
+            "maxPct": 45.22140616287847
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 4,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 38.61154201309643,
+            "maxPct": 38.651994126258394
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 4,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 40.55211256960094,
+            "maxPct": 40.59464231534777
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "04",
+      "entityName": "Campeche",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 5,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 61.21497263459588,
+            "maxPct": 61.287032637697216
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 5,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 52.18515854995261,
+            "maxPct": 52.246588989681804
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 5,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 51.20988081459028,
+            "maxPct": 51.27044838503923
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "07",
+      "entityName": "Chiapas",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 6,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 58.70300066065959,
+            "maxPct": 58.7692194995323
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 6,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.11183606603942,
+            "maxPct": 50.16887856583001
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 6,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.78650923517494,
+            "maxPct": 50.844319718083504
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "08",
+      "entityName": "Chihuahua",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 7,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 47.772641577261666,
+            "maxPct": 47.82841815820417
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 7,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 40.72055862463868,
+            "maxPct": 40.7682687109007
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 7,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 40.509669395161694,
+            "maxPct": 40.557299811852076
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "09",
+      "entityName": "Ciudad de México",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 8,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 69.24691452266822,
+            "maxPct": 69.31753860683207
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 8,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 61.25890509840969,
+            "maxPct": 61.32144609391598
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 8,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 58.17262307332919,
+            "maxPct": 58.232013193873684
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "05",
+      "entityName": "Coahuila",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 9,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 60.81641507776254,
+            "maxPct": 60.88851515491459
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 9,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 54.25149760811614,
+            "maxPct": 54.315586796076104
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 9,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 53.34359371559011,
+            "maxPct": 53.40631399038798
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "06",
+      "entityName": "Colima",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 10,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 53.463737294311365,
+            "maxPct": 53.51848766532448
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 10,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 45.68954036172912,
+            "maxPct": 45.736425472413295
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 10,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 43.696011272504386,
+            "maxPct": 43.740850688894845
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "10",
+      "entityName": "Durango",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 11,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 51.50922595297775,
+            "maxPct": 51.56181321786082
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 11,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 43.49808341982737,
+            "maxPct": 43.542491876611265
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 11,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 42.48608220318716,
+            "maxPct": 42.52945747853498
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "11",
+      "entityName": "Guanajuato",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 12,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 52.257058899548674,
+            "maxPct": 52.31152170194529
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 12,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 45.347347815635814,
+            "maxPct": 45.39456004657349
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 12,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 44.72017546838126,
+            "maxPct": 44.766734734876195
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "12",
+      "entityName": "Guerrero",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 13,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 51.374531663882905,
+            "maxPct": 51.428638595598414
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 13,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 41.257817032174685,
+            "maxPct": 41.301223467768764
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 13,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 42.18486261731831,
+            "maxPct": 42.22929111928494
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "13",
+      "entityName": "Hidalgo",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 14,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 60.75674742968419,
+            "maxPct": 60.82134790542016
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 14,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.610817183259975,
+            "maxPct": 50.66468713236402
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 14,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 49.243009079907395,
+            "maxPct": 49.29542313959862
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "14",
+      "entityName": "Jalisco",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 15,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 54.77779908590389,
+            "maxPct": 54.836166479708794
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 15,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 47.584465381548206,
+            "maxPct": 47.635168061762954
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 15,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 46.54933300847357,
+            "maxPct": 46.59882724878029
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "15",
+      "entityName": "Estado de México",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 16,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 61.515268446148326,
+            "maxPct": 61.57958132481654
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 16,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 53.20311886717066,
+            "maxPct": 53.258799786968844
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 16,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 51.60281517130296,
+            "maxPct": 51.65682125730118
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "16",
+      "entityName": "Michoacán",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 17,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 52.624732914875075,
+            "maxPct": 52.68202712599633
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 17,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 44.209481919605764,
+            "maxPct": 44.2578247101138
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 17,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 42.43943503799244,
+            "maxPct": 42.48584229336476
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "17",
+      "entityName": "Morelos",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 18,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 59.46925092948132,
+            "maxPct": 59.532752532182315
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 18,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.53723418300635,
+            "maxPct": 50.59114056613488
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 18,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 48.56222165558726,
+            "maxPct": 48.61402135868656
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "18",
+      "entityName": "Nayarit",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 19,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.28250551208343,
+            "maxPct": 50.336776969732746
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 19,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 42.75531172423097,
+            "maxPct": 42.80145884967536
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 19,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 42.08563112731397,
+            "maxPct": 42.13110452669519
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "19",
+      "entityName": "Nuevo León",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 20,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 53.20300617588809,
+            "maxPct": 53.26055404627845
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 20,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 46.07472795039873,
+            "maxPct": 46.12461937211004
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 20,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 43.99525475708304,
+            "maxPct": 44.04279149912203
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "20",
+      "entityName": "Oaxaca",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 21,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 52.19829271136818,
+            "maxPct": 52.25445009997643
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 21,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 41.64547174484176,
+            "maxPct": 41.690131768160626
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 21,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 42.591616669750664,
+            "maxPct": 42.637242397302614
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "21",
+      "entityName": "Puebla",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 22,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 61.45378950081941,
+            "maxPct": 61.52019013777329
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 22,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 53.20361798974345,
+            "maxPct": 53.26116652191192
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 22,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 52.06864422874722,
+            "maxPct": 52.12490424412133
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "22",
+      "entityName": "Querétaro",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 23,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 58.06241065356432,
+            "maxPct": 58.12180953914342
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 23,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.15815209910421,
+            "maxPct": 50.20946478667362
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 23,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 49.07171582441971,
+            "maxPct": 49.12196847759372
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "23",
+      "entityName": "Quintana Roo",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 24,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 53.42174600639208,
+            "maxPct": 53.477019411468525
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 24,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 45.23063776196123,
+            "maxPct": 45.277436145574235
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 24,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 43.119223648176316,
+            "maxPct": 43.16379132119769
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "24",
+      "entityName": "San Luis Potosí",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 25,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 57.78835043331092,
+            "maxPct": 57.850858113606556
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 25,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 49.66077983157326,
+            "maxPct": 49.71443815662088
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 25,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 49.03683512665243,
+            "maxPct": 49.08976209386954
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "25",
+      "entityName": "Sinaloa",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 26,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 48.520121727395285,
+            "maxPct": 48.57382413107806
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 26,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 40.58970668974432,
+            "maxPct": 40.63473132278896
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 26,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 39.732942522989774,
+            "maxPct": 39.776967944067884
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "26",
+      "entityName": "Sonora",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 27,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 44.93984249207822,
+            "maxPct": 44.98991473998026
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 27,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 36.549722047289706,
+            "maxPct": 36.59053692394776
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 27,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 34.98270981719446,
+            "maxPct": 35.02181849222765
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "27",
+      "entityName": "Tabasco",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 28,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 57.58537331517795,
+            "maxPct": 57.64827377756482
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 28,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 47.54416498847258,
+            "maxPct": 47.5960974461334
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 28,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 46.89684244638896,
+            "maxPct": 46.94806783409665
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "28",
+      "entityName": "Tamaulipas",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 29,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 54.1560143613863,
+            "maxPct": 54.21622115889756
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 29,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 44.27496152703218,
+            "maxPct": 44.324183274143934
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 29,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 41.532137721254244,
+            "maxPct": 41.57831019231734
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "29",
+      "entityName": "Tlaxcala",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 30,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 69.73677796859666,
+            "maxPct": 69.81140266412218
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 30,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 61.545462194238965,
+            "maxPct": 61.61111068724616
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 30,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 59.882381635796484,
+            "maxPct": 59.94639273321583
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "30",
+      "entityName": "Veracruz",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 31,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 52.44347083240855,
+            "maxPct": 52.498356725482765
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 31,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 41.58109941238639,
+            "maxPct": 41.62461704651763
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 31,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 41.492315469609835,
+            "maxPct": 41.535785679635616
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "31",
+      "entityName": "Yucatán",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 32,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 69.39875788519409,
+            "maxPct": 69.4739868910317
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 32,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 63.20897845178091,
+            "maxPct": 63.27757202579261
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 32,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 61.99226254890772,
+            "maxPct": 62.05953575840192
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    },
+    {
+      "entityId": "32",
+      "entityName": "Zacatecas",
+      "diagnostics": [
+        {
+          "groupId": "18-19",
+          "sourceFile": "Mapa 03.1.csv",
+          "sourceRow": 33,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 59.41528139743239,
+            "maxPct": 59.47720456720564
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "20-24",
+          "sourceFile": "Mapa 03.1 (1).csv",
+          "sourceRow": 33,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 50.01260988625036,
+            "maxPct": 50.06473350259872
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        },
+        {
+          "groupId": "25-29",
+          "sourceFile": "Mapa 03.1 (2).csv",
+          "sourceRow": 33,
+          "arithmeticCheck": "rounded-compatible",
+          "participationIntervalFromNonSpecified": {
+            "minPct": 47.73025865560884,
+            "maxPct": 47.780003583858566
+          },
+          "publishedPrecisionDecimals": 1,
+          "exactNoVotaronAvailable": false
+        }
+      ]
+    }
+  ],
+  "missingNonSpecifiedPercentages": 0
+}

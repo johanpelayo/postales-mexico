@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "receivedAt": "2026-10-22",
+  "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+  "files": [
+    {
+      "file": "Mapa 03.1.csv",
+      "groupId": "18-19",
+      "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+      "encoding": "UTF-16LE BOM",
+      "delimiter": "tab",
+      "ageFilterEmbedded": false
+    },
+    {
+      "file": "Mapa 03.1 (1).csv",
+      "groupId": "20-24",
+      "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+      "encoding": "UTF-16LE BOM",
+      "delimiter": "tab",
+      "ageFilterEmbedded": false
+    },
+    {
+      "file": "Mapa 03.1 (2).csv",
+      "groupId": "25-29",
+      "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+      "encoding": "UTF-16LE BOM",
+      "delimiter": "tab",
+      "ageFilterEmbedded": false
+    }
+  ]
+}

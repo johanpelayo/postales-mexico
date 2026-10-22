@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+  <meta charset="utf-8" /><title>QA responsive · entorno de desarrollo</title
+  ><style>
+    body {
+      margin: 0;
+      background: #deded8;
+      font: 14px system-ui;
+    }
+    header {
+      padding: 12px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    button {
+      padding: 10px;
+    }
+    iframe {
+      display: block;
+      border: 0;
+      margin: 0 auto;
+      background: #f7f3ea;
+      width: 390px;
+      height: 1000px;
+    }
+  </style>
+  <header>
+    Viewport de prueba <button data-width="320">320 px</button
+    ><button data-width="390">390 px</button
+    ><button data-width="768">768 px</button
+    ><button data-width="1440">1440 px</button
+    ><label
+      ><input id="reduce" type="checkbox" /> Simular CSS de movimiento
+      reducido</label
+    >
+  </header>
+  <iframe title="Micrositio" src="/"></iframe>
+  <script>
+    const frame = document.querySelector("iframe");
+    const params = new URLSearchParams(location.search);
+    const route = params.get("route");
+    if (route?.startsWith("/#/")) frame.src = route;
+    const width = Number(params.get("width"));
+    if ([320, 390, 768, 1440].includes(width)) frame.style.width = width + "px";
+    document
+      .querySelectorAll("button")
+      .forEach(
+        (b) => (b.onclick = () => (frame.style.width = b.dataset.width + "px")),
+      );
+    document.querySelector("#reduce").onchange = (e) => {
+      const s = frame.contentDocument.createElement("style");
+      s.id = "qa-reduce";
+      s.textContent =
+        "*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}";
+      e.target.checked
+        ? frame.contentDocument.head.append(s)
+        : frame.contentDocument.querySelector("#qa-reduce")?.remove();
+    };
+  </script>
+</html>

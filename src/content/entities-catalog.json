@@ -1,0 +1,258 @@
+[
+  {
+    "id": "01",
+    "number": "01",
+    "name": "Aguascalientes",
+    "slug": "aguascalientes",
+    "code": "AGS",
+    "aliases": []
+  },
+  {
+    "id": "02",
+    "number": "02",
+    "name": "Baja California",
+    "slug": "baja-california",
+    "code": "BC",
+    "aliases": []
+  },
+  {
+    "id": "03",
+    "number": "03",
+    "name": "Baja California Sur",
+    "slug": "baja-california-sur",
+    "code": "BCS",
+    "aliases": []
+  },
+  {
+    "id": "04",
+    "number": "04",
+    "name": "Campeche",
+    "slug": "campeche",
+    "code": "CAMP",
+    "aliases": []
+  },
+  {
+    "id": "07",
+    "number": "05",
+    "name": "Chiapas",
+    "slug": "chiapas",
+    "code": "CHIS",
+    "aliases": []
+  },
+  {
+    "id": "08",
+    "number": "06",
+    "name": "Chihuahua",
+    "slug": "chihuahua",
+    "code": "CHIH",
+    "aliases": []
+  },
+  {
+    "id": "09",
+    "number": "07",
+    "name": "Ciudad de México",
+    "slug": "ciudad-de-mexico",
+    "code": "CDMX",
+    "aliases": ["cdmx"]
+  },
+  {
+    "id": "05",
+    "number": "08",
+    "name": "Coahuila",
+    "slug": "coahuila",
+    "code": "COAH",
+    "aliases": []
+  },
+  {
+    "id": "06",
+    "number": "09",
+    "name": "Colima",
+    "slug": "colima",
+    "code": "COL",
+    "aliases": []
+  },
+  {
+    "id": "10",
+    "number": "10",
+    "name": "Durango",
+    "slug": "durango",
+    "code": "DGO",
+    "aliases": []
+  },
+  {
+    "id": "11",
+    "number": "11",
+    "name": "Guanajuato",
+    "slug": "guanajuato",
+    "code": "GTO",
+    "aliases": []
+  },
+  {
+    "id": "12",
+    "number": "12",
+    "name": "Guerrero",
+    "slug": "guerrero",
+    "code": "GRO",
+    "aliases": []
+  },
+  {
+    "id": "13",
+    "number": "13",
+    "name": "Hidalgo",
+    "slug": "hidalgo",
+    "code": "HGO",
+    "aliases": []
+  },
+  {
+    "id": "14",
+    "number": "14",
+    "name": "Jalisco",
+    "slug": "jalisco",
+    "code": "JAL",
+    "aliases": []
+  },
+  {
+    "id": "15",
+    "number": "15",
+    "name": "Estado de México",
+    "slug": "estado-de-mexico",
+    "code": "MEX",
+    "aliases": ["México", "edomex"]
+  },
+  {
+    "id": "16",
+    "number": "16",
+    "name": "Michoacán",
+    "slug": "michoacan",
+    "code": "MICH",
+    "aliases": []
+  },
+  {
+    "id": "17",
+    "number": "17",
+    "name": "Morelos",
+    "slug": "morelos",
+    "code": "MOR",
+    "aliases": []
+  },
+  {
+    "id": "18",
+    "number": "18",
+    "name": "Nayarit",
+    "slug": "nayarit",
+    "code": "NAY",
+    "aliases": []
+  },
+  {
+    "id": "19",
+    "number": "19",
+    "name": "Nuevo León",
+    "slug": "nuevo-leon",
+    "code": "NL",
+    "aliases": []
+  },
+  {
+    "id": "20",
+    "number": "20",
+    "name": "Oaxaca",
+    "slug": "oaxaca",
+    "code": "OAX",
+    "aliases": []
+  },
+  {
+    "id": "21",
+    "number": "21",
+    "name": "Puebla",
+    "slug": "puebla",
+    "code": "PUE",
+    "aliases": []
+  },
+  {
+    "id": "22",
+    "number": "22",
+    "name": "Querétaro",
+    "slug": "queretaro",
+    "code": "QRO",
+    "aliases": []
+  },
+  {
+    "id": "23",
+    "number": "23",
+    "name": "Quintana Roo",
+    "slug": "quintana-roo",
+    "code": "QROO",
+    "aliases": []
+  },
+  {
+    "id": "24",
+    "number": "24",
+    "name": "San Luis Potosí",
+    "slug": "san-luis-potosi",
+    "code": "SLP",
+    "aliases": []
+  },
+  {
+    "id": "25",
+    "number": "25",
+    "name": "Sinaloa",
+    "slug": "sinaloa",
+    "code": "SIN",
+    "aliases": []
+  },
+  {
+    "id": "26",
+    "number": "26",
+    "name": "Sonora",
+    "slug": "sonora",
+    "code": "SON",
+    "aliases": []
+  },
+  {
+    "id": "27",
+    "number": "27",
+    "name": "Tabasco",
+    "slug": "tabasco",
+    "code": "TAB",
+    "aliases": []
+  },
+  {
+    "id": "28",
+    "number": "28",
+    "name": "Tamaulipas",
+    "slug": "tamaulipas",
+    "code": "TAMPS",
+    "aliases": []
+  },
+  {
+    "id": "29",
+    "number": "29",
+    "name": "Tlaxcala",
+    "slug": "tlaxcala",
+    "code": "TLAX",
+    "aliases": []
+  },
+  {
+    "id": "30",
+    "number": "30",
+    "name": "Veracruz",
+    "slug": "veracruz",
+    "code": "VER",
+    "aliases": []
+  },
+  {
+    "id": "31",
+    "number": "31",
+    "name": "Yucatán",
+    "slug": "yucatan",
+    "code": "YUC",
+    "aliases": []
+  },
+  {
+    "id": "32",
+    "number": "32",
+    "name": "Zacatecas",
+    "slug": "zacatecas",
+    "code": "ZAC",
+    "aliases": []
+  }
+]

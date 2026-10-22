@@ -1,0 +1,3906 @@
+[
+  {
+    "id": "aguascalientes-2024",
+    "entityId": "01",
+    "entityName": "Aguascalientes",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 54.3,
+        "nonSpecifiedPct": 2.7,
+        "counts": {
+          "registered": 46885,
+          "voted": 24742,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 2,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 45.7
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 47.9,
+        "nonSpecifiedPct": 2.8,
+        "counts": {
+          "registered": 138295,
+          "voted": 64438,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 2,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 52.1
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 47.4,
+        "nonSpecifiedPct": 2.8,
+        "counts": {
+          "registered": 132288,
+          "voted": 60975,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 2,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 52.6
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "baja-california-2024",
+    "entityId": "02",
+    "entityName": "Baja California",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 46.1,
+        "nonSpecifiedPct": 6.8,
+        "counts": {
+          "registered": 111648,
+          "voted": 47979,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 3,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 53.9
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 38.2,
+        "nonSpecifiedPct": 6.8,
+        "counts": {
+          "registered": 354061,
+          "voted": 125848,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 3,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 61.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 36.6,
+        "nonSpecifiedPct": 7,
+        "counts": {
+          "registered": 376949,
+          "voted": 128263,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 3,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 63.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "baja-california-sur-2024",
+    "entityId": "03",
+    "entityName": "Baja California Sur",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 45.2,
+        "nonSpecifiedPct": 4.6,
+        "counts": {
+          "registered": 22401,
+          "voted": 9659,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 4,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 54.8
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 38.6,
+        "nonSpecifiedPct": 4.5,
+        "counts": {
+          "registered": 70178,
+          "voted": 25891,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 4,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 61.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 40.6,
+        "nonSpecifiedPct": 4.6,
+        "counts": {
+          "registered": 70858,
+          "voted": 27427,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 4,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 59.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "campeche-2024",
+    "entityId": "04",
+    "entityName": "Campeche",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 61.2,
+        "nonSpecifiedPct": 15,
+        "counts": {
+          "registered": 26147,
+          "voted": 13613,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 5,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 38.8
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 52.2,
+        "nonSpecifiedPct": 15,
+        "counts": {
+          "registered": 78002,
+          "voted": 34620,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 5,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 47.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 51.2,
+        "nonSpecifiedPct": 15.4,
+        "counts": {
+          "registered": 78539,
+          "voted": 34046,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 5,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 48.8
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "chiapas-2024",
+    "entityId": "07",
+    "entityName": "Chiapas",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 58.7,
+        "nonSpecifiedPct": 11.3,
+        "counts": {
+          "registered": 152174,
+          "voted": 79281,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 6,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 41.3
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 50.1,
+        "nonSpecifiedPct": 12.1,
+        "counts": {
+          "registered": 542913,
+          "voted": 239280,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 6,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 49.9
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 50.8,
+        "nonSpecifiedPct": 12.1,
+        "counts": {
+          "registered": 518041,
+          "voted": 231392,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 6,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 49.2
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "chihuahua-2024",
+    "entityId": "08",
+    "entityName": "Chihuahua",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 47.8,
+        "nonSpecifiedPct": 14.3,
+        "counts": {
+          "registered": 115933,
+          "voted": 47492,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 7,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 52.2
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 40.7,
+        "nonSpecifiedPct": 14.6,
+        "counts": {
+          "registered": 350250,
+          "voted": 121872,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 7,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 59.3
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 40.5,
+        "nonSpecifiedPct": 14.9,
+        "counts": {
+          "registered": 346214,
+          "voted": 119423,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 7,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 59.5
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "ciudad-de-mexico-2024",
+    "entityId": "09",
+    "entityName": "Ciudad de México",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 69.3,
+        "nonSpecifiedPct": 1.9,
+        "counts": {
+          "registered": 237868,
+          "voted": 161669,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 8,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 30.7
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 61.3,
+        "nonSpecifiedPct": 2,
+        "counts": {
+          "registered": 741806,
+          "voted": 445561,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 8,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 38.7
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 58.2,
+        "nonSpecifiedPct": 2,
+        "counts": {
+          "registered": 782708,
+          "voted": 446443,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 8,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 41.8
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "coahuila-2024",
+    "entityId": "05",
+    "entityName": "Coahuila",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 60.8,
+        "nonSpecifiedPct": 15.6,
+        "counts": {
+          "registered": 94964,
+          "voted": 48773,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 9,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 39.2
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 54.3,
+        "nonSpecifiedPct": 15.3,
+        "counts": {
+          "registered": 285142,
+          "voted": 131103,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 9,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 45.7
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 53.4,
+        "nonSpecifiedPct": 14.9,
+        "counts": {
+          "registered": 276293,
+          "voted": 125498,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 9,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 46.6
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "colima-2024",
+    "entityId": "06",
+    "entityName": "Colima",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 53.5,
+        "nonSpecifiedPct": 2.3,
+        "counts": {
+          "registered": 20966,
+          "voted": 10957,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 10,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 46.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 45.7,
+        "nonSpecifiedPct": 2.5,
+        "counts": {
+          "registered": 62405,
+          "voted": 27814,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 10,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 54.3
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 43.7,
+        "nonSpecifiedPct": 2.5,
+        "counts": {
+          "registered": 62092,
+          "voted": 26467,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 10,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 56.3
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "durango-2024",
+    "entityId": "10",
+    "entityName": "Durango",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 51.5,
+        "nonSpecifiedPct": 2,
+        "counts": {
+          "registered": 51605,
+          "voted": 26063,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 11,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 48.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 43.5,
+        "nonSpecifiedPct": 2,
+        "counts": {
+          "registered": 163691,
+          "voted": 69814,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 11,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 56.5
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 42.5,
+        "nonSpecifiedPct": 2,
+        "counts": {
+          "registered": 159990,
+          "voted": 66648,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 11,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 57.5
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "guanajuato-2024",
+    "entityId": "11",
+    "entityName": "Guanajuato",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 52.3,
+        "nonSpecifiedPct": 4,
+        "counts": {
+          "registered": 180918,
+          "voted": 90808,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 12,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 47.7
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 45.4,
+        "nonSpecifiedPct": 3.9,
+        "counts": {
+          "registered": 582267,
+          "voted": 253877,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 12,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 54.6
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 44.8,
+        "nonSpecifiedPct": 3.9,
+        "counts": {
+          "registered": 575651,
+          "voted": 247521,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 12,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 55.2
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "guerrero-2024",
+    "entityId": "12",
+    "entityName": "Guerrero",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 51.4,
+        "nonSpecifiedPct": 5,
+        "counts": {
+          "registered": 91527,
+          "voted": 44694,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 13,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 48.6
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 41.3,
+        "nonSpecifiedPct": 4.9,
+        "counts": {
+          "registered": 326109,
+          "voted": 128020,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 13,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 58.7
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 42.2,
+        "nonSpecifiedPct": 5,
+        "counts": {
+          "registered": 325296,
+          "voted": 130433,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 13,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 57.8
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "hidalgo-2024",
+    "entityId": "13",
+    "entityName": "Hidalgo",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 60.8,
+        "nonSpecifiedPct": 5.9,
+        "counts": {
+          "registered": 91052,
+          "voted": 52084,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 14,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 39.2
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 50.6,
+        "nonSpecifiedPct": 6,
+        "counts": {
+          "registered": 277335,
+          "voted": 132010,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 14,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 49.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 49.3,
+        "nonSpecifiedPct": 6,
+        "counts": {
+          "registered": 259754,
+          "voted": 120300,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 14,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 50.7
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "jalisco-2024",
+    "entityId": "14",
+    "entityName": "Jalisco",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 54.8,
+        "nonSpecifiedPct": 6.1,
+        "counts": {
+          "registered": 239728,
+          "voted": 123373,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 15,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 45.2
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 47.6,
+        "nonSpecifiedPct": 6.1,
+        "counts": {
+          "registered": 759898,
+          "voted": 339717,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 15,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 52.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 46.6,
+        "nonSpecifiedPct": 5.9,
+        "counts": {
+          "registered": 745764,
+          "voted": 326840,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 15,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 53.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "estado-de-mexico-2024",
+    "entityId": "15",
+    "entityName": "Estado de México",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 61.6,
+        "nonSpecifiedPct": 4.3,
+        "counts": {
+          "registered": 496356,
+          "voted": 292358,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 16,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 38.4
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 53.2,
+        "nonSpecifiedPct": 4.4,
+        "counts": {
+          "registered": 1551672,
+          "voted": 789627,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 16,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 46.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 51.6,
+        "nonSpecifiedPct": 4.4,
+        "counts": {
+          "registered": 1474512,
+          "voted": 727791,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 16,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 48.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "michoacan-2024",
+    "entityId": "16",
+    "entityName": "Michoacán",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 52.6,
+        "nonSpecifiedPct": 8.1,
+        "counts": {
+          "registered": 122304,
+          "voted": 59181,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 17,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 47.4
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 44.2,
+        "nonSpecifiedPct": 8.5,
+        "counts": {
+          "registered": 418928,
+          "voted": 169556,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 17,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 55.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 42.5,
+        "nonSpecifiedPct": 8.5,
+        "counts": {
+          "registered": 425884,
+          "voted": 165470,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 17,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 57.5
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "morelos-2024",
+    "entityId": "17",
+    "entityName": "Morelos",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 59.5,
+        "nonSpecifiedPct": 6.3,
+        "counts": {
+          "registered": 54690,
+          "voted": 30491,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 18,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 40.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 50.6,
+        "nonSpecifiedPct": 6.2,
+        "counts": {
+          "registered": 171561,
+          "voted": 81370,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 18,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 49.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 48.6,
+        "nonSpecifiedPct": 6.2,
+        "counts": {
+          "registered": 171234,
+          "voted": 78041,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 18,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 51.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "nayarit-2024",
+    "entityId": "18",
+    "entityName": "Nayarit",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 50.3,
+        "nonSpecifiedPct": 7.3,
+        "counts": {
+          "registered": 33735,
+          "voted": 15733,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 19,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 49.7
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 42.8,
+        "nonSpecifiedPct": 7.3,
+        "counts": {
+          "registered": 104573,
+          "voted": 41469,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 19,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 57.2
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 42.1,
+        "nonSpecifiedPct": 7.4,
+        "counts": {
+          "registered": 102574,
+          "voted": 39996,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 19,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 57.9
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "nuevo-leon-2024",
+    "entityId": "19",
+    "entityName": "Nuevo León",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 53.2,
+        "nonSpecifiedPct": 7.5,
+        "counts": {
+          "registered": 163617,
+          "voted": 80564,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 20,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 46.8
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 46.1,
+        "nonSpecifiedPct": 7.6,
+        "counts": {
+          "registered": 511547,
+          "voted": 217899,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 20,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 53.9
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 44,
+        "nonSpecifiedPct": 7.4,
+        "counts": {
+          "registered": 510922,
+          "voted": 208260,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 20,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 56
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "oaxaca-2024",
+    "entityId": "20",
+    "entityName": "Oaxaca",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 52.2,
+        "nonSpecifiedPct": 7,
+        "counts": {
+          "registered": 105912,
+          "voted": 51442,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 21,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 47.8
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 41.7,
+        "nonSpecifiedPct": 6.7,
+        "counts": {
+          "registered": 354766,
+          "voted": 137919,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 21,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 58.3
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 42.6,
+        "nonSpecifiedPct": 6.6,
+        "counts": {
+          "registered": 358242,
+          "voted": 142587,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 21,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 57.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "puebla-2024",
+    "entityId": "21",
+    "entityName": "Puebla",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 61.5,
+        "nonSpecifiedPct": 7.4,
+        "counts": {
+          "registered": 186826,
+          "voted": 106373,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 22,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 38.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 53.2,
+        "nonSpecifiedPct": 7.5,
+        "counts": {
+          "registered": 628510,
+          "voted": 309478,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 22,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 46.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 52.1,
+        "nonSpecifiedPct": 7.4,
+        "counts": {
+          "registered": 608877,
+          "voted": 293732,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 22,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 47.9
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "queretaro-2024",
+    "entityId": "22",
+    "entityName": "Querétaro",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 58.1,
+        "nonSpecifiedPct": 2.2,
+        "counts": {
+          "registered": 72387,
+          "voted": 41126,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 23,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 41.9
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 50.2,
+        "nonSpecifiedPct": 2.2,
+        "counts": {
+          "registered": 221299,
+          "voted": 108613,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 23,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 49.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 49.1,
+        "nonSpecifiedPct": 2.3,
+        "counts": {
+          "registered": 225571,
+          "voted": 108201,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 23,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 50.9
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "quintana-roo-2024",
+    "entityId": "23",
+    "entityName": "Quintana Roo",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 53.5,
+        "nonSpecifiedPct": 3.3,
+        "counts": {
+          "registered": 53870,
+          "voted": 27843,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 24,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 46.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 45.3,
+        "nonSpecifiedPct": 3.3,
+        "counts": {
+          "registered": 167966,
+          "voted": 73503,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 24,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 54.7
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 43.2,
+        "nonSpecifiedPct": 3.2,
+        "counts": {
+          "registered": 191054,
+          "voted": 79786,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 24,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 56.8
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "san-luis-potosi-2024",
+    "entityId": "24",
+    "entityName": "San Luis Potosí",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 57.8,
+        "nonSpecifiedPct": 7.5,
+        "counts": {
+          "registered": 81005,
+          "voted": 43324,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 25,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 42.2
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 49.7,
+        "nonSpecifiedPct": 7.4,
+        "counts": {
+          "registered": 258016,
+          "voted": 118715,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 25,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 50.3
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 49.1,
+        "nonSpecifiedPct": 7.3,
+        "counts": {
+          "registered": 248399,
+          "voted": 112976,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 25,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 50.9
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "sinaloa-2024",
+    "entityId": "25",
+    "entityName": "Sinaloa",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 48.5,
+        "nonSpecifiedPct": 9.6,
+        "counts": {
+          "registered": 85425,
+          "voted": 37490,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 26,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 51.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 40.6,
+        "nonSpecifiedPct": 9.8,
+        "counts": {
+          "registered": 267101,
+          "voted": 97845,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 26,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 59.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 39.7,
+        "nonSpecifiedPct": 9.7,
+        "counts": {
+          "registered": 262898,
+          "voted": 94377,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 26,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 60.3
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "sonora-2024",
+    "entityId": "26",
+    "entityName": "Sonora",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 45,
+        "nonSpecifiedPct": 10.2,
+        "counts": {
+          "registered": 84820,
+          "voted": 34249,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 27,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 55
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 36.6,
+        "nonSpecifiedPct": 10.4,
+        "counts": {
+          "registered": 258249,
+          "voted": 84620,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 27,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 63.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 35,
+        "nonSpecifiedPct": 10.5,
+        "counts": {
+          "registered": 254247,
+          "voted": 79648,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 27,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 65
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "tabasco-2024",
+    "entityId": "27",
+    "entityName": "Tabasco",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 57.6,
+        "nonSpecifiedPct": 8.4,
+        "counts": {
+          "registered": 74487,
+          "voted": 39312,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 28,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 42.4
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 47.6,
+        "nonSpecifiedPct": 8.4,
+        "counts": {
+          "registered": 212348,
+          "voted": 92529,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 28,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 52.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 46.9,
+        "nonSpecifiedPct": 8.4,
+        "counts": {
+          "registered": 197071,
+          "voted": 84703,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 28,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 53.1
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "tamaulipas-2024",
+    "entityId": "28",
+    "entityName": "Tamaulipas",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 54.2,
+        "nonSpecifiedPct": 10,
+        "counts": {
+          "registered": 102839,
+          "voted": 50152,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 29,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 45.8
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 44.3,
+        "nonSpecifiedPct": 10,
+        "counts": {
+          "registered": 310743,
+          "voted": 123892,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 29,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 55.7
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 41.6,
+        "nonSpecifiedPct": 10,
+        "counts": {
+          "registered": 305179,
+          "voted": 114136,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 29,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 58.4
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "tlaxcala-2024",
+    "entityId": "29",
+    "entityName": "Tlaxcala",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 69.8,
+        "nonSpecifiedPct": 6.5,
+        "counts": {
+          "registered": 42533,
+          "voted": 27748,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 30,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 30.2
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 61.6,
+        "nonSpecifiedPct": 6.2,
+        "counts": {
+          "registered": 131069,
+          "voted": 75706,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 30,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 38.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 59.9,
+        "nonSpecifiedPct": 6.4,
+        "counts": {
+          "registered": 123531,
+          "voted": 69276,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 30,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 40.1
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "veracruz-2024",
+    "entityId": "30",
+    "entityName": "Veracruz",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 52.5,
+        "nonSpecifiedPct": 4.4,
+        "counts": {
+          "registered": 207794,
+          "voted": 104234,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 31,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 47.5
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 41.6,
+        "nonSpecifiedPct": 4.4,
+        "counts": {
+          "registered": 672264,
+          "voted": 267375,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 31,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 58.4
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 41.5,
+        "nonSpecifiedPct": 4.5,
+        "counts": {
+          "registered": 634015,
+          "voted": 251361,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 31,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 58.5
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "yucatan-2024",
+    "entityId": "31",
+    "entityName": "Yucatán",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 69.4,
+        "nonSpecifiedPct": 7.7,
+        "counts": {
+          "registered": 66048,
+          "voted": 42330,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 32,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 30.6
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 63.2,
+        "nonSpecifiedPct": 7.8,
+        "counts": {
+          "registered": 199560,
+          "voted": 116364,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 32,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 36.8
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 62,
+        "nonSpecifiedPct": 7.8,
+        "counts": {
+          "registered": 195851,
+          "voted": 112003,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 32,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 38
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  },
+  {
+    "id": "zacatecas-2024",
+    "entityId": "32",
+    "entityName": "Zacatecas",
+    "year": 2024,
+    "observations": [
+      {
+        "id": "18-19",
+        "ageMin": 18,
+        "ageMax": 19,
+        "ratePct": 59.4,
+        "nonSpecifiedPct": 4,
+        "counts": {
+          "registered": 44883,
+          "voted": 25614,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1.csv",
+          "row": 33,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1.csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_18_19_pct",
+          "originalSha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 40.6
+      },
+      {
+        "id": "20-24",
+        "ageMin": 20,
+        "ageMax": 24,
+        "ratePct": 50,
+        "nonSpecifiedPct": 4,
+        "counts": {
+          "registered": 141195,
+          "voted": 67826,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (1).csv",
+          "row": 33,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (1).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_20_24_pct",
+          "originalSha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 50
+      },
+      {
+        "id": "25-29",
+        "ageMin": 25,
+        "ageMax": 29,
+        "ratePct": 47.7,
+        "nonSpecifiedPct": 4,
+        "counts": {
+          "registered": 138168,
+          "voted": 63343,
+          "notVoted": null,
+          "nonSpecified": null
+        },
+        "source": {
+          "file": "Mapa 03.1 (2).csv",
+          "row": 33,
+          "column": "% Participación",
+          "groupEvidence": "Correspondencia exacta de año, entidad, lista nominal, Sí votaron y participación en las 32 filas frente a las columnas de edad del consolidado; confirmación de grupos comunicada por el equipo. Los originales no incluyen el filtro de edad.",
+          "originalFile": "Mapa 03.1 (2).csv",
+          "consolidatedFile": "INE_comparativo_estatal_18-29_2024 (1).csv",
+          "consolidatedColumn": "participacion_25_29_pct",
+          "originalSha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2",
+          "ageFilterEmbedded": false
+        },
+        "abstentionPct": 52.3
+      }
+    ],
+    "provenance": {
+      "status": "verified",
+      "sourceKind": "official-export",
+      "title": "INE · Conteos Censales de Participación Ciudadana · 2024",
+      "officialUrl": "https://ine.mx/transparencia/datos-abiertos/visualizacion-datos/conteos-censales-participacion/",
+      "manualUrl": "https://ine.mx/wp-content/uploads/2025/06/Manual-Conteos-Censales-2009-2024.pdf",
+      "rawFile": "data/source-manifest.json",
+      "sha256": "6a878ca3d967838e03fe51c6962dffacc7ec08ec8e27db6ef17c1c0e7ba3a58a",
+      "downloadedAt": null,
+      "receivedAt": "2026-10-22",
+      "indicator": "Porcentaje de participación",
+      "denominator": "Sí votaron + No votaron; excluye registros de voto no especificado",
+      "filters": "Año 2024 y 32 entidades explícitos en originales. Edad vinculada al consolidado por conteos exactos de las 32 filas y confirmación del equipo; los CSV no incluyen el filtro de edad ni los demás filtros de Tableau.",
+      "verifiedBy": "Cotejo automatizado con los originales aportados; grupos confirmados por el equipo y por correspondencia única con el consolidado",
+      "verifiedAt": "2026-10-22",
+      "verificationScope": "Tasas publicadas, porcentajes no especificados, correspondencia única con el consolidado y compatibilidad dentro del redondeo; sin reconstrucción de No votaron.",
+      "sourceFiles": [
+        {
+          "file": "Mapa 03.1.csv",
+          "groupId": "18-19",
+          "sha256": "59376be284183b8f061b3e6d0f0f5993292c914d953f529814ee3de31d019c76"
+        },
+        {
+          "file": "Mapa 03.1 (1).csv",
+          "groupId": "20-24",
+          "sha256": "97ef6946d2707c532f9dfc437bf37878042a256ef2d3a8993beeab1c51fe3449"
+        },
+        {
+          "file": "Mapa 03.1 (2).csv",
+          "groupId": "25-29",
+          "sha256": "fa5f6d0f04e4831671aaf4ad389ad9cf00457f81c195d07c6f4f30e0cc1111f2"
+        }
+      ],
+      "consolidatedSource": {
+        "file": "INE_comparativo_estatal_18-29_2024 (1).csv",
+        "sha256": "7c24bb174619267cfa7447cbbb2ffdfb861929ad3bb5864cbdbeba7f80f70571"
+      },
+      "note": "Originales recibidos y conservados sin cambios. 96 tasas y conteos cotejados; 96 porcentajes no especificados integrados. Los grupos de edad se vinculan por el consolidado y la confirmación del equipo, no por filtros embebidos. No votaron y conteos no especificados permanecen null porque los archivos no los publican."
+    }
+  }
+]
