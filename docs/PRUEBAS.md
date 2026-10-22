@@ -61,3 +61,11 @@ Los tres originales están incorporados con hashes. Se cotejaron 96 tasas y sus 
 ## Publicación
 
 Workflow configurado para el repositorio `johanpelayo/postales-mexico`, Node 22 y base `/postales-mexico/`. El resultado remoto debe consultarse en Actions; las comprobaciones locales no sustituyen la verificación del despliegue.
+
+## Cierre de publicación y revisión adicional
+
+- GitHub Actions [39721853503](https://github.com/johanpelayo/postales-mexico/actions/runs/39721853503): jobs `build` y `deploy` completados con éxito sobre `eb546143a44d5476cff2c4095e709c867e088399`.
+- URL emitida por el despliegue: https://johanpelayo.github.io/postales-mexico/ . Respuesta HTTP 200 y título correcto comprobados después de publicar. Esta comprobación HTTP no sustituye una prueba de interacción en el dominio público.
+- Revisión local adicional tras incorporar originales: detalle de Jalisco muestra 6.1%, 6.1%, 5.9%; enlace de trazabilidad abre la sección correcta; metodología a 390 y 320 px sin desbordamiento de página (375/375 y 305/305 px útiles).
+- Jalisco se guardó con Enter en el viewport móvil; tras recargar se restauró el estado guardado y el álbum mostró una postal de Jalisco.
+- La revisión local usa Chrome; sigue pendiente una auditoría WCAG completa, lector de pantalla y dispositivos físicos.

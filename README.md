@@ -10,6 +10,8 @@ Micrositio React + Vite + TypeScript + Tailwind CSS sobre el MVP existente, con 
 - Fórmula corregida según manual INE: **Sí votaron / (Sí votaron + No votaron) × 100**. Se retiró la comparación incorrecta con la lista nominal.
 - Tres originales «Mapa 03.1» conservados con SHA-256: 96 tasas cotejadas sin modificación y 96 porcentajes no especificados integrados. No se reconstruyen conteos ausentes. La edad se vincula mediante el consolidado y la confirmación del equipo; los originales no incluyen los filtros de Tableau. Véase `docs/DATOS.md`.
 
+Sitio publicado: [Abrir las 32 postales](https://johanpelayo.github.io/postales-mexico/). El primer despliegue de Actions y la respuesta HTTP 200 se comprobaron; véase `docs/PRUEBAS.md`.
+
 ## Ejecutar
 
 Node 22.12+ o versión compatible con Vite 7. En la carpeta del proyecto:
